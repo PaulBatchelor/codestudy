@@ -23,3 +23,4 @@ ln Exalidraw
 nn questions/persistent_data
 ln How does excalidraw manage persistent data? When I
 ln run it locally, it loads previously stored data.
+co $ ..
