@@ -1,0 +1,25 @@
+ns codestudy/excalidraw/links
+gr external links and resources for excalidraw
+
+ns codestudy/excalidraw/questions
+gr High-level questions I have about how excalidraw
+gr does something.
+
+ns codestudy/excalidraw
+gr A codestudy of excalidraw
+
+nn links
+nn questions
+
+nn links/github
+hl https://github.com/excalidraw/excalidraw
+ln Github
+co $ ..
+
+nn links/excalidraw
+hl https://excalidraw.com/
+ln Exalidraw
+
+nn questions/persistent_data
+ln How does excalidraw manage persistent data? When I
+ln run it locally, it loads previously stored data.
