@@ -39,6 +39,19 @@ nn app-jotai.ts
 fr excalidraw-app/app-jotai.ts
 co $ ..
 
+nn data
+co $ ..
+ns +data
+
+nn LocalData.tsx
+fr excalidraw-app/data/LocalData.tsx
+co $ ../../App.tsx
+co $ ../../../../questions/persistent_data
+cr this could be the code responsible for persistent data of data files
+
+zz data
+ns ..
+
 zz ecalidraw-app
 ns ..
 
