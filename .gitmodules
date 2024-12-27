@@ -1,3 +1,6 @@
 [submodule "code/excalidraw"]
 	path = code/excalidraw
 	url = https://github.com/excalidraw/excalidraw
+[submodule "code/ripgrep"]
+	path = code/ripgrep
+	url = https://github.com/BurntSushi/ripgrep
