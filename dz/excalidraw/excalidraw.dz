@@ -1,3 +1,6 @@
+ns codestudy
+nn excalidraw
+
 ns codestudy/excalidraw/links
 gr external links and resources for excalidraw
 
@@ -24,3 +27,23 @@ nn questions/persistent_data
 ln How does excalidraw manage persistent data? When I
 ln run it locally, it loads previously stored data.
 co $ ..
+
+nn libs
+ln External libraries and components
+co $ ..
+
+ns +libs
+
+nn jotai
+hl https://jotai.org/
+ln jotai: primitive and flexible state management for
+ln React
+co $ ../../questions/persistent_data
+cr Could this be what is used to load/store data?
+co $ ../../files/excalidraw-app/App.tsx/ExcalidrawApp/Provider
+cr Provider component is imported from jotai library
+co $ ../../files/excalidraw-app/App.tsx/appJotaiStore
+co $ ..
+
+zz libs
+ns ..

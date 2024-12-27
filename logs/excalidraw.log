@@ -6,3 +6,10 @@
 
 @16:06 Here is a second comment #dz:codestudy/excalidraw/questions
 This time, it also has some text underneath.
+
+@21:54 Populating initial files #dz:codestudy/excalidraw/files
+
+@22:01 The top level entry point #dz:codestudy/excalidraw/files/excalidraw-app/App.tsx/ExcalidrawApp
+Diving in a bit further
+
+@22:22 Will need to study this to grok how the app works from a high-level #dz:codestudy/excalidraw/files/excalidraw-app/App.tsx/ExcalidrawWrapper

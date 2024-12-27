@@ -1,0 +1,47 @@
+nn files
+
+ns +files
+
+nn excalidraw-app
+co $ ..
+
+ns +excalidraw-app
+nn App.tsx
+fr excalidraw-app/App.tsx
+co $ ..
+
+ns +App.tsx
+
+nn ExcalidrawApp
+ln ExcalidrawApp: Top level entry point
+fr $ 1135 1149
+co $ ..
+
+nn ExcalidrawApp/Provider
+ln Provider Component
+co $ ..
+fr $ 1144 1146
+
+nn appJotaiStore
+ln appJotaiStore import
+co $ ..
+fr $ 95
+co $ ../../app-jotai.ts
+
+nn ExcalidrawWrapper
+co $ ..
+fr $ 327 1133
+
+zz App.tsx
+ns ..
+
+nn app-jotai.ts
+fr excalidraw-app/app-jotai.ts
+co $ ..
+
+zz ecalidraw-app
+ns ..
+
+zz files
+ns ..
+
