@@ -1,0 +1,68 @@
+ns codestudy/ripgrep/files
+
+nn crates/core/main.rs
+fr crates/core/main.rs
+
+ns +crates/core/main.rs
+
+nn main
+ln main(): entry point
+fr $ 43 66
+co $ ..
+
+nn main/match
+ln match statement for run(flags::parse())
+co $ ..
+fr $ 44 65
+
+nn main/match/1_ok
+ln ok(code)
+co $ ..
+fr $ 45
+
+nn main/match/2_err
+ln err(err)
+fr $ 46 64
+co $ ..
+
+ns +main/match/2_err
+nn 1_search_for_broken_pipe
+ln Search for broken pipe error
+fr $ 55 61
+co $ ..
+
+nn 2_eprintln_locked
+co $ ..
+
+
+zz main/match/2_err
+ns ../../..
+
+nn run
+ln run()
+fr $ 77 101
+co $ ..
+
+nn run/1_import_flags
+ln Import flags Mode and ParseResult
+co $ ..
+co $ ../../main/match
+cr run() called inside match statement
+
+nn run/2_extract_args
+ln extract arguments from result
+co $ ..
+fr $ 85 93
+
+nn run/3_extract_matches
+ln run matches using search
+co $ ..
+fr $ 85 93
+
+nn run/4_return_error_code
+ln Return error code
+fr $ 94 100
+co $ ..
+
+zz crates/core/main.rs
+ns ../../..
