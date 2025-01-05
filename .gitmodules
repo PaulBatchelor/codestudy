@@ -4,3 +4,6 @@
 [submodule "code/ripgrep"]
 	path = code/ripgrep
 	url = https://github.com/BurntSushi/ripgrep
+[submodule "code/oed"]
+	path = code/oed
+	url = https://github.com/ibara/oed
