@@ -1,0 +1,44 @@
+@2025-01-04#codestudy OED notes
+
+@13:32 I'm on a train and poorly prepared #dz:codestudy/oed/news
+No internet, and the project I was hoping to look
+at (ripgre) is not on my computer at the moment. But ed is
+here. Ed is here.
+
+@13:47 weird while loop structure #dz:codestudy/oed/files/main.c/main/04_getopt_parsing
+In C, you don't need braces for a while loop if there is
+one statement. In this loop, they cram a switch statement
+inside of a while loop. Since the switch statement is only
+one statement.
+---
+Perhaps this is done to minimize indentation?
+
+@13:50 was oed written in ed? #dz:codestudy/oed/questions
+I wonder how that would influence the code style and code
+structure.
+
+@14:06 top-level main traversed #dz:codestudy/oed/news
+I've done an initial spelunking of main(). It's enough
+to get the ball rolling. The tooling I've written for
+myself is sparse, but is getting better. A little more
+work is needed. Code snippets are not visible in the
+graph, and neither are logs turned into nodes.
+
+@14:09 inner loop next thing to dig into #dz:codestudy/oed/files/main.c/main/10_loop
+This is the meat of the program after the initial setup,
+and where most of the program logic seems to be.
+
+@14:32 Adding an ad-hoc file importer #dz:codestudy/oed/news
+Hoping this will eventually grow into a re-usable tool.
+My current version is written in my own special build of
+Lua, which can be kind of clunky.
+---
+The program in question needs to take in a file and
+import each line into a row called =dz_textfiles=. A
+new filename should also be given, as it will appear
+in the graph.
+---
+Once the data is in the database, the generator can
+use this to produce code snippets in the metadata.
+
+@15:33 and it's done! code can be viewed in dzbrowse. very nice.

@@ -1,0 +1,77 @@
+nn files
+
+ns +files
+
+nn main.c
+fr codestudy/oed/main.c
+
+ns +main.c
+
+nn main
+fr $ 126 288
+ln main() entry point
+co $ ..
+
+ns +main
+
+
+nn 01_pledge
+fr $ 132 135
+ln call to pledge, for systems that have it
+co $ ..
+
+nn 02_home_envar
+ln Get the home environment variable
+fr $ 137
+co $ ..
+
+nn 03_top
+fr $ 139
+ln "top" label 
+co $ ..
+
+nn 04_getopt_parsing
+fr $ 140 154
+ln getopt parsing
+co $ ..
+
+nn 05_optind_argv
+ln optind (optional index)? pointer arithmetic
+fr $ 155 156
+co $ ..
+
+nn 06_parse_flags
+ln parse flags
+fr $ 157 165
+co $ ..
+
+nn 07_set_interactive_mode
+ln set up interactive mode
+fr $ 167 177
+co $ ..
+
+nn 08_set_up_signals
+ln set up signals
+fr $ 179 186
+co $ ..
+
+
+nn 09_attempt_to_load_file
+ln initialize buffers and attempt to load in file
+fr $ 192 206
+co $ ..
+
+nn 10_loop
+ln main interactive loop
+fr $ 208 286
+co $ ..
+td investigate further
+
+zz main
+ns ..
+
+zz main.c
+ns ..
+
+zz files
+ns ..

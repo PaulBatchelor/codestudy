@@ -1,7 +1,7 @@
 ns codestudy/ripgrep/files
 
 nn crates/core/main.rs
-fr crates/core/main.rs
+fr codestudy/ripgrep/crates/core/main.rs
 
 ns +crates/core/main.rs
 
