@@ -1,0 +1,80 @@
+ns codestudy/leetcode
+nn 421
+ln Codestudy for leetcode 421 (Maximum XOR) of two numbers
+ln in an array
+
+ns +421
+gr Codestudy for leetcode 421 (Maximum XOR) of two numbers
+
+ns +files
+
+nn hashset.py
+ln HashSet Solution
+fr codestudy/leetcode/421/hashset.py
+
+ns +hashset.py
+
+nn solution_class
+ln Solution Class
+fr $ 1 12
+co $ ..
+
+ns +solution_class
+
+nn findMaximumXOR
+fr $ 2 12
+co $ ..
+
+ns +findMaximumXOR
+
+nn 1_get_length
+co $ ..
+fr $ 3
+
+nn 2_loop
+co $ ..
+fr $ 6 10
+
+ns +2_loop
+
+nn 1_lshift_max_xor
+ln Left-shift max xor
+co $ ..
+fr $ 7
+
+nn 2_curr_xor
+ln compute curr_xor
+co $ ..
+fr $ 8
+
+nn 3_compute_prefix_set
+ln compute set of prefixes in a set
+fr $ 9
+co $ ..
+
+nn 4_update_max_xor
+ln Update the =max_xor= variable.
+fr $ 10
+
+zz 2_loop
+ns ..
+
+nn 3_return_max_xor
+ln Return the =max_xor= variable
+fr $ 12
+
+zz findMaximumXOR
+ns ..
+
+zz solution_class
+ns ..
+
+zz +hashset.py
+ns ..
+
+ns ..
+
+ns ..
+
+ns ../..
+

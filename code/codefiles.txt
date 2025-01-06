@@ -1,0 +1,2 @@
+code/oed/main.c codestudy/oed/main.c
+code/ripgrep/crates/core/main.rs codestudy/ripgrep/crates/core/main.rs

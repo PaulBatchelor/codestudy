@@ -1,3 +1,5 @@
 dz/excalidraw/excalidraw.dz dz/excalidraw/files.dz
 dz/potential.dz
 dz/tic80.dz
+dz/oed/main.dz dz/oed/files.dz
+dz/ripgrep/files.dz

@@ -1,0 +1,47 @@
+@2025-01-06#codestudy This is a title
+@16:36 Initial scaffolding. This sure does take too long. #dz:codestudy/leetcode/421
+
+@17:26 Reversed loop
+#! dz codestudy/leetcode/421/files/hashset.py/solution_class/findMaximumXOR/2_loop
+The idea behind this algorithm is to start from the leftmost
+bits (MSB), and go towards the smaller bits (LSB). So,
+the loop burns down instead of going up.
+
+@17:26 Counting bits
+#! dz $
+The "bin" command produces a string like =0b101=, which
+has a 2-character prefix. So, getting the length is just
+getting the length of the string, minus the prefix length
+of 2.
+
+@18:11 this is the unfamiliar line
+#! dz $/3_compute_prefix_set
+It's a python generator, but since it uses {}, it makes
+a set, and not a list or a tuple. I've yet to use it
+in this way, and I barely use set literals anyway.
+
+@18:22 grabs the upper bits
+#! dz $/3_compute_prefix_set
+This computes the =L - i= upper bits. where L is
+the total number of significant bits (the MSB), and
+i is the current position from i .. MSB.
+---
+Anything whose MSB is less than i will just truncate
+to zero. it's in a set, so all those zeros merge down
+into one zero.
+
+@18:24 the other jargon-y line
+#! dz $/4_update_max_xor
+This one is actually worse.
+---
+The expression ORs stuff into =max_or=.
+---
+The righthand expression is an any(), which is just
+a bool. Is this some kind of type coercion that reduces
+it down to a single 1 or 0? If so, we're just setting
+the LSB.
+---
+the XOR operation is probably being coerced into true/false
+via zero/non-zero for the any() operator.
+---
+The double generator stuff still is hard to grok.

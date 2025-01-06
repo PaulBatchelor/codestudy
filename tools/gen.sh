@@ -6,7 +6,12 @@ done < dz/dzfiles.txt
 
 while read -r line
 do
-    mnolth lua tools/logparse.lua $line | sqlite3 a.db
-done < logs/logfiles
+    echo $line
+    ../dzbrowse/import_code.py $line | sqlite3 a.db
+done < code/codefiles.txt
+
+../dzbrowse/batchlogs.py logs/logfiles
+
+../dzbrowse/gentagnodes.py a.db
 
 python3 ../dzbrowse/generate.py a.db

@@ -54,10 +54,35 @@ ln extract arguments from result
 co $ ..
 fr $ 85 93
 
-nn run/3_extract_matches
-ln run matches using search
+nn run/3_match_based_on_mode
+ln run matches based on mode
 co $ ..
 fr $ 85 93
+
+ns +run/3_match_based_on_mode
+
+nn 1_search
+ln Mode::Search() options (3x)
+co $ ..
+fr $ 86 88
+
+nn 2_files
+ln Mode::Files() options (2x)
+co $ ..
+fr $ 89 90
+
+nn 3_types
+ln Mode::Types() (1x)
+co $ ..
+fr $ 91
+
+nn 4_generate
+ln Mode::Types() (1x)
+co $ ..
+fr $ 92
+
+zz run/3_match_based_on_mode
+ns ../..
 
 nn run/4_return_error_code
 ln Return error code
