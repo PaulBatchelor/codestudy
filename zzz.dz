@@ -1,6 +1,2 @@
 cx codestudy/leetcode/421 leetcode/problems/421_max_XOR_two_numbers/solutions
 cx codestudy/leetcode/421/files/hashset.py leetcode/problems/421_max_XOR_two_numbers/solutions/hashset
-
-cx rust/crates/anyhow codestudy/ripgrep/questions/anyhow
-cr anyhow is an external crate that has something
-cr to do with error handling
