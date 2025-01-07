@@ -1,2 +1,23 @@
 @2025-01-04#codestudy
 @22:28 Attempting to refamiliarize myself with this.
+
+@2025-01-06#codestudy
+@21:24 got all the high-level functions
+#! dz codestudy/ripgrep/files/crates/core/main.rs
+Just the bare minimum, named nodes with file ranges.
+
+@21:40 connecting nodes to run function
+#! dz $/run
+#! dz $
+
+@21:50 diving into single-threaded search
+#! dz $/search
+This seems like a decent starting point
+
+@21:50 where does anyhow come from? #nn:codestudy/ripgrep/questions/anyhow
+#! dz $
+It seems to be used everywhere in main.rs
+
+@22:03 Interesting how lets are grouped by mutable immutable
+#! dz $/search
+also, they are at the top

@@ -89,5 +89,111 @@ ln Return error code
 fr $ 94 100
 co $ ..
 
+nn search
+ln search(): the top level entry point for single-threaded
+ln search.
+fr $ 107 151
+co $ ..
+co $ ../run/3_match_based_on_mode/1_search
+cr single-threaded search mode option
+
+ns +search
+
+nn 01_let_started_at
+fr $ 108
+co $ ..
+
+nn 02_let_haystack_builder
+fr $ 109
+co $ ..
+
+nn 03_let_unsorted
+fr $ 110 113
+co $ ..
+
+nn 04_let_haystacks
+fr $ 114
+co $ ..
+
+nn 05_let_mut_matched
+fr $ 116
+co $ ..
+
+nn 06_let_mut_searched
+fr $ 117
+co $ ..
+
+nn 07_let_mut_stats
+fr $ 118
+co $ ..
+
+nn 08_let_mut_searcher
+fr $ 119 123
+co $ ..
+
+nn 09_iterate_haystacks
+ln iterate through haystacks
+co 04_let_haystacks $
+fr $ 124 142
+co $ ..
+
+nn 10_nothing_searched
+fr $ 143 145
+co $ ..
+
+nn 11_print_stats
+fr $ 146 149
+co $ ..
+
+nn 12_return_matched
+fr $ 150
+co $ ..
+
+zz search
+ns ..
+
+nn search_parallel
+ln search_parallel(): top-level function for parallel
+ln search.
+fr $ 160 229
+co $ ..
+co $ ../run/3_match_based_on_mode/1_search
+cr parallel search mode option
+
+nn files
+ln files(): top-level entry point for file listing without
+ln searching.
+fr $ 235 261
+co $ ..
+co $ ../run/3_match_based_on_mode/2_files
+cr single-threaded
+
+nn files_parallel
+ln files_parallel(): top-level entry point for multi-thread
+ln file listing without searching.
+fr $ 271 326
+co $ ..
+co $ ../run/3_match_based_on_mode/2_files
+cr parallel
+
+nn types
+ln types(): top-level entry point for --type-list
+fr $ 329 348
+co $ ..
+co $ ../run/3_match_based_on_mode/3_types
+
+nn generate
+ln generate(): implements ripgreps "generate" modes
+fr $ 355 369
+co $ ..
+co $ ../run/3_match_based_on_mode/4_generate
+
+nn special
+fr $ 383 404
+co $ ..
+
+nn print_stats
+fr $ 434 483
+
 zz crates/core/main.rs
 ns ../../..
