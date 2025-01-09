@@ -21,3 +21,32 @@ It seems to be used everywhere in main.rs
 @22:03 Interesting how lets are grouped by mutable immutable
 #! dz $/search
 also, they are at the top
+
+@2025-01-08#codestudy
+
+@19:13 Diving into search
+#! dz codestudy/ripgrep/news
+#! dz codestudy/ripgrep/files/crates/core/main.rs/search
+
+@19:17 bulk of work seems to be in here
+#! dz $/09_iterate_haystacks
+
+@19:27 This seems to perform the actual search
+#! dz $/09_iterate_haystacks/02_compute_search_result
+A match on something called =searcher.search=.
+
+@19:34 what is the concept of a "haystack"?  #nn:codestudy/ripgrep/questions
+#! dz $/04_let_haystacks
+I keep seeing this turn up. My guess is that it has to do with
+"finding a needle in a haystack", but it's unclear to me
+at the moment
+
+@19:34 Adding hiargs.rs
+#! dz $/09_iterate_haystacks/02_compute_search_result
+#! dz codestudy/ripgrep/news
+#! dz codestudy/ripgrep/files/crates/core/flags/hiargs.rs
+#! dz $/08_let_mut_searcher
+Seems to be what I need in order to understand =searcher=.
+and =search()=, which is the crux of what we are doing.
+
+@20:20 I think that's all I'm going to be able to accomplish today.

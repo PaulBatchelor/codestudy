@@ -114,6 +114,8 @@ co $ ..
 nn 04_let_haystacks
 fr $ 114
 co $ ..
+co 03_let_unsorted $
+cr sort the contents of unsorted
 
 nn 05_let_mut_matched
 fr $ 116
@@ -136,6 +138,37 @@ ln iterate through haystacks
 co 04_let_haystacks $
 fr $ 124 142
 co $ ..
+
+ns +09_iterate_haystacks
+
+nn 01_set_search_true
+ln Flip the "search" flag to be true
+fr $ 125
+co $ ..
+
+nn 02_compute_search_result
+co $ ..
+ln Compute =search_result=.
+fr $ 126 134
+co ../../08_let_mut_searcher $
+cr search() method called here
+
+
+nn 03_update_matched
+co $ ..
+ln Update =matched= with serarch result
+fr $ 135
+
+nn 04_stats
+co $ ..
+fr $ 136 138
+
+nn 05_quit_after_match
+co $ ..
+fr $ 139 141
+
+zz -09_iterate_haystacks
+ns ..
 
 nn 10_nothing_searched
 fr $ 143 145
@@ -195,5 +228,35 @@ co $ ..
 nn print_stats
 fr $ 434 483
 
-zz crates/core/main.rs
-ns ../../..
+zz -main.rs
+ns ..
+
+ns +flags
+nn hiargs.rs
+fr codestudy/ripgrep/crates/core/flags/hiargs.rs
+
+ns +hiargs.rs
+
+nn 01_struct
+fr $ 36 106
+co $ ..
+
+nn 02_implementation
+fr $ 107 912
+co $ ..
+
+ns +02_implementation
+
+nn search_worker
+fr $ 685 699
+
+zz -02_implementation
+ns ..
+
+zz -flags/higargs.rs
+ns ../..
+
+zz -crates/core
+ns ../..
+co crates/core/flags/hiargs.rs/02_implementation/search_worker crates/core/main.rs/search/09_iterate_haystacks/02_compute_search_result
+cr calls search_worker() method to get search results

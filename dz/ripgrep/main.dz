@@ -1,0 +1,6 @@
+ns codestudy/ripgrep
+
+nn news
+
+ns +news
+gr High-level updates on progress
