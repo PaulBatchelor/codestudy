@@ -65,7 +65,35 @@ nn 10_loop
 ln main interactive loop
 fr $ 208 286
 co $ ..
-td investigate further
+
+ns +10_loop
+
+nn 01_print_error
+co $ ..
+fr $ 209 210
+
+nn 02_print_prompt
+co $ ..
+fr $ 211 214
+
+nn 03_get_tty_line
+co $ ..
+fr $ 215 241
+
+nn 04_unset_isglobal
+co $ ..
+fr $ 242
+
+nn 05_process
+co $ ..
+fr $ 243 248
+
+nn 06_handle_status
+co $ ..
+fr $ 249 285
+
+zz -10_loop
+ns ..
 
 zz main
 ns ..

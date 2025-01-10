@@ -1,4 +1,4 @@
-@2025-01-04#codestudy OED notes
+@2025-01-04#codestudy/oed OED notes
 
 @13:32 I'm on a train and poorly prepared #dz:codestudy/oed/news
 No internet, and the project I was hoping to look
@@ -42,3 +42,17 @@ Once the data is in the database, the generator can
 use this to produce code snippets in the metadata.
 
 @15:33 and it's done! code can be viewed in dzbrowse. very nice.
+
+@2025-01-10#codestudy/oed
+
+@10:04 Quick glance at file structure. How big is this project?
+#! dz codestudy/oed/news
+#! dz codestudy/oed/questions
+Thinking about this in the context of complex vs "simple"
+text editors. VSCode vs Vim vs Emacs Vs Kilo Vs Ed.
+---
+I ran =wc -l *.c= on the file. 15 C files, and their sum
+total is 5751 lines. That's it. That's ed.
+
+@10:14 Diving into iteration loop
+#! dz codestudy/oed/files/main.c/main/08_set_up_signals 
