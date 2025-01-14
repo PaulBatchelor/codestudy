@@ -1,0 +1,115 @@
+ns codestudy/leetcode/425/files
+
+nn backtracking.py
+fr codestudy/leetcode/425/files/backtracking.py
+
+ns +backtracking.py
+
+nn solution_class
+fr $ 2 33
+
+ns +solution_class
+
+nn wordSquares
+co $ ..
+at ol
+fr $ 3 14
+ns +wordSquares
+
+nn set_instance_variables
+co $ ..
+fr $ 5 6
+
+nn initialize_local_variables
+co $ ..
+fr $ 8 9
+
+nn iterate_through_words
+co $ ..
+fr $ 10 13
+ns +iterate_through_words
+
+nn initialize_word_square
+ln Initialize word square so that the first row
+ln is word.
+co $ ..
+fr $ 12
+
+nn call_backtracking
+ln call backtrack()
+co ../../../backtracking $
+
+zz -iterate_through_words
+ns ..
+
+nn return_results
+co $ ..
+fr $ 14
+
+zz -wordSquares
+ns ..
+
+nn backtracking
+ln backtracking(setp, word_squares, results)
+co $ ..
+fr $ 16 28
+at ol
+
+ns +backtracking
+zz -backtracking
+
+nn append_if_steps_reached
+co $ ..
+fr $ 18 20
+
+nn generate_prefix
+co $ ..
+fr $ 22
+
+nn iterate_through_candididates
+co $ ..
+fr $ 24 28
+co ../../getWordsWithPrefix $
+cr candidates are generated using this function
+co ../../../../2025_01_10.py/backtracking_inner_loop $
+cr Essentially the same thing
+
+ns ..
+
+nn getWordsWithPrefix
+co $ ..
+fr $ 30 33
+at ol
+
+ns +getWordsWithPrefix
+
+nn iterate_through_words
+fr $ 31 33
+co $ ..
+
+ns +iterate_through_words
+zz -iterate_through_words
+
+nn yield_if_word_starts_with_prefix
+fr $ 32 33
+
+ns ..
+
+zz -getWordsWithPrefix
+ns ..
+
+zz -solution_class
+ns ..
+zz -backtracking.py
+ns ..
+
+nn 2025_01_10.py
+fr codestudy/leetcode/425/files/2025_01_10.py
+
+ns +2025_01_10.py
+
+nn backtracking_inner_loop
+co $ ..
+fr $ 26 29
+
+ns ..

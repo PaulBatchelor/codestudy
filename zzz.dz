@@ -1,2 +1,5 @@
 cx codestudy/leetcode/421 leetcode/problems/421_max_XOR_two_numbers/solutions
 cx codestudy/leetcode/421/files/hashset.py leetcode/problems/421_max_XOR_two_numbers/solutions/hashset
+cx python/docs/stdtypes/str/startswith codestudy/leetcode/425/files/backtracking.py/solution_class/getWordsWithPrefix/iterate_through_words 
+cr used to find prefix
+cx codestudy/leetcode/425/files/backtracking.py leetcode/problems/425_word_squares/editorial/backtracking 

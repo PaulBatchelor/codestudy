@@ -1,0 +1,33 @@
+@2025-01-13#codestudy/425
+
+@18:45 Looking at backtracking
+#! dz codestudy/leetcode/425/files/backtracking.py
+This is the first editorial solution. It said it
+would trigger a TLE, but it didn't trigger on my
+first submission. So it seems good enough. I'm studying
+it first.
+
+@20:21 Grokking getWordsWithPrefix
+#! dz codestudy/leetcode/425/files/backtracking.py/solution_class/getWordsWithPrefix
+#! dz python/docs/reference/expressions/yield
+#! dz rust/std/iter
+
+This one is very pythonic, since it is making use of
+generator syntax and yield(). My assumption here is that
+it's a little more efficient than making an array.
+---
+A generator is a bit like an iterator in Rust in this context.
+We are building a list of words that have a particular
+prefix. instead of making a list and iterating through
+the list, the generator skips the list-making
+process and just goes to the iterating bit.
+
+@20:45 Conclusions on backtracking algorithm today
+#! dz codestudy/leetcode/425/files/backtracking.py
+#! dz codestudy/leetcode/425/files/2025_01_10.py
+I've now done a fairly comprehenisve dive into
+the editorial naive backtracking solution and my own
+solution. The underlying question I wanted to answer
+was: why does mine TLE and their solution doesn't?
+My guess is that the inner loop was more optimized,
+making used of generators and yield syntax.
