@@ -2,4 +2,10 @@ cx codestudy/leetcode/421 leetcode/problems/421_max_XOR_two_numbers/solutions
 cx codestudy/leetcode/421/files/hashset.py leetcode/problems/421_max_XOR_two_numbers/solutions/hashset
 cx python/docs/stdtypes/str/startswith codestudy/leetcode/425/files/backtracking.py/solution_class/getWordsWithPrefix/iterate_through_words 
 cr used to find prefix
-cx codestudy/leetcode/425/files/backtracking.py leetcode/problems/425_word_squares/editorial/backtracking 
+
+cx codestudy/leetcode/425/files/backtracking.py leetcode/problems/425_word_squares/editorial/backtracking
+cr codestudy on editorial of backtracking solution. It's slow, but it does pass
+
+cx codestudy/leetcode/425/files/2025_01_10.py leetcode/problems/425_word_squares/editorial/backtracking
+cr This was my attept, which presumably follows this pattern.
+cr It passes on local examples, but TLEs when submitted
