@@ -1,0 +1,97 @@
+ns codestudy/leetcode
+nn 110
+ns +110
+ns +files
+nn 2025_01_16.py
+fr codestudy/leetcode/110/files/2025_01_16.py
+
+ns +2025_01_16.py
+
+nn isBalanced
+at ol
+ln isBalanced entry point
+co $ ..
+fr 3 17
+
+ns +isBalanced
+
+nn height_function
+co $ ..
+fr $ 4 12
+at ol
+
+ns +height_function
+
+nn return_height_on_empty_node
+co $ ..
+fr $ 5 6
+
+nn get_left_height
+co $ ..
+fr $ 7
+
+nn get_right_heigth
+co $ ..
+fr $ 8
+
+nn check_height
+co $ ..
+fr $ 9 11
+
+nn return_max_height
+co $ ..
+fr $ 12
+
+
+zz -height_function
+ns ..
+
+nn initialize_balanced_flag
+co $ ..
+fr $ 14
+
+nn call_height
+co $ ..
+fr $ 15
+
+nn return_balanced_flag
+co $ ..
+fr $ 17
+ns ../..
+
+nn editorial_top_down.py
+fr codestudy/leetcode/110/files/editorial_top_down.py
+ns +editorial_top_down.py
+
+nn isBalanced
+at ol
+ln isBalanced entry point
+fr $ 9 20
+
+ns +isBalanced
+
+nn return_true_on_empty_tree
+fr $ 12
+
+nn check_subtrees
+fr $ 16 20
+
+ns ..
+
+nn height_function
+fr $ 3 7
+
+ns +height_function
+nn return_negative_one_on_empty_tree
+co $ ..
+fr $ 5 6
+
+nn return_max_height_plus_one
+co $ ..
+fr $ 7
+
+zz -height_function
+ns ..
+
+zz -editorial_top_down.py
+ns ..

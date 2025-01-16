@@ -1,0 +1,17 @@
+@2025-01-16#codestudy/leetcode/110
+
+@10:46 Setup
+#! dz codestudy/leetcode/110/files/2025_01_16.py
+Still figuring out how to manage this codestudy infra
+
+@11:01 Added editorial solution
+#! dz codestudy/leetcode/110/files/editorial_top_down.py
+
+@11:12 Negative one return value makes me think a bit
+#! dz codestudy/leetcode/110/files/editorial_top_down.py/height_function/return_negative_one_on_empty_tree 
+#! dz codestudy/leetcode/110/files/editorial_top_down.py/height_function/return_max_height_plus_one
+I think looking at the return statement makes things clearer
+maybe? This code is always adding 1 to the max result.
+A height of zero will happen if there are no child nodes.
+If there is one child node the height will be at least 1,
+as the result will always be positive (zero inclusive).
