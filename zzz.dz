@@ -12,3 +12,5 @@ cr It passes on local examples, but TLEs when submitted
 
 cx codestudy/leetcode/110/files/2025_01_16.py leetcode/problems/110_balanced_binary_tree/solutions/top_down_recursion
 cx codestudy/leetcode/110/files/editorial_top_down.py leetcode/problems/110_balanced_binary_tree/solutions/top_down_recursion
+
+cx codestudy/leetcode/872/files/editorial.py leetcode/problems/872_leaf_similar_trees/solutions/DFS

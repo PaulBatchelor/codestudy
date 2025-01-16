@@ -1,0 +1,49 @@
+ns codestudy/leetcode
+nn 872
+ns +872
+ns +files
+nn editorial.py
+
+fr codestudy/leetcode/872/files/editorial.py
+ns +editorial.py
+
+nn leafSimilar
+co $ ..
+fr $ 2 10
+
+ns +leafSimilar
+nn dfs
+at ol
+co $ ..
+fr $ 3 8
+
+ns +dfs
+nn if_node
+at ol
+fr $ 4 8
+co $ ..
+ns +if_node
+
+nn yield_on_leaf
+co $ ..
+fr $ 5 6
+
+nn yield_from_children
+at ol
+co $ ..
+fr $ 7 8
+
+zz -if_node
+ns ..
+zz -dfs
+ns ..
+
+nn return_list_comp
+fr $ 10
+co $ ..
+
+zz -leafSimilar
+ns ..
+
+zz -editorial.py
+ns ..

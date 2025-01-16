@@ -50,3 +50,34 @@ A height of zero will happen if there are no child nodes.
 If there is one child node the height will be at least 1,
 as the result will always be positive (zero inclusive).
 
+@2025-01-16#codestudy/leetcode/872
+
+@12:30 initial setup
+#! dz codestudy/leetcode/872/files/editorial.py
+I am studying the solution more closely because I'm
+still getting the hang of generator and yield syntax.
+
+@12:46 yield from syntax
+#! dz codestudy/leetcode/872/files/editorial.py/leafSimilar/dfs/if_node/yield_from_children
+It's the "from" keyword that is new to me here, so I am
+sounding it out.
+---
+dfs returns a "generator", similar to what "range" does.
+---
+generators are build up using yield. I think of coroutines
+when I think of yield. Is it like special return to
+a generator? or a suspension?
+---
+"yield from" seems to loosely imply "return values from
+this generator".
+---
+Under the hood, I realize that this isn't a list data
+structure, but some kind of iterator patter.
+
+@12:50 return explanation
+#! dz codestudy/leetcode/872/files/editorial.py/leafSimilar/return_list_comp 
+As I've established previously, the call to dfs returns
+a generator, which needs to be converted to a list.
+This does an in-place list conversion for both trees,
+then applies a comparison between both of those
+resulting lists.
