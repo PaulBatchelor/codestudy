@@ -1,0 +1,21 @@
+@2025-01-16#codestudy/teatime
+
+@13:53 Getting things set up
+#! dz codestudy/teatime/news
+My main goal is to just get comfortable looking at
+more web code using something react-y
+
+@14:06 initial scaffolding of app.vue
+#! dz codestudy/teatime/files/app.vue
+
+@14:11 It's IPFS, how does one implement an IPFS?
+#! dz codestudy/teatime/questions/IPFS_implementation
+
+@14:11 My first time looking at a vue code
+#! dz codestudy/teatime/questions/app_structure_vue
+#! dz codestudy/teatime/files/app.vue
+I'm not exactly sure how to tackle this. I'm assuming
+the entry point is app.vue. It looks like they use
+a routing system similar to NextJS (this is Nuxt, so
+maybe that's Vue trying to be NextJS? Not sure where
+the Vue stops and the NextJS starts).

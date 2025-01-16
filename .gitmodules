@@ -7,3 +7,6 @@
 [submodule "code/oed"]
 	path = code/oed
 	url = https://github.com/ibara/oed
+[submodule "code/teatime"]
+	path = code/teatime
+	url = https://github.com/bjesus/teatime
