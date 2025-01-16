@@ -10,7 +10,7 @@ ns +files
 
 nn hashset.py
 ln HashSet Solution
-fr codestudy/leetcode/421/hashset.py
+fr codestudy/leetcode/421/files/hashset.py
 
 ns +hashset.py
 

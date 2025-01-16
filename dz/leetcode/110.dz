@@ -11,7 +11,7 @@ nn isBalanced
 at ol
 ln isBalanced entry point
 co $ ..
-fr 3 17
+fr $ 3 17
 
 ns +isBalanced
 
