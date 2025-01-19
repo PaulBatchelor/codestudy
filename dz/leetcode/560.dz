@@ -1,0 +1,69 @@
+ns codestudy/leetcode
+nn 560
+ns +560
+nn files
+ns +files
+nn editorial.py
+fr codestudy/leetcode/560/editorial.py
+
+ns +editorial.py
+nn subArraySum
+fr $ 7 21
+co $ ..
+at ol
+
+ns +subArraySum
+
+nn setup_hashmap
+ln A default dictionary in python, meaning an attempt
+ln to access a key that doesn't exist will return
+ln 0.
+co $ ..
+fr $ 8
+
+nn initialize_variables
+ln The variable 'count' is the global counter.
+ln The variable 'psum' stands for prefix sum,
+ln and calculates a running total.
+co $ ..
+fr $ 10 11
+
+nn iterate_over_numbers
+co $ ..
+fr $ 12 19
+at ol
+
+ns +iterate_over_numbers
+
+nn update_psum
+ln Update the prefix sum by adding the current
+ln number to the running total
+co $ ..
+fr $ 13
+
+nn increment_count_if_psum_matches
+ln update counter if the current
+ln prefix sum matches the target
+co $ ..
+fr $ 15 16
+
+nn increment_count_from_hashmap
+co $ ..
+fr $ 18
+
+nn increment_hashmap
+co $ ..
+fr $ 19
+
+zz -iterate_over_numbers
+ns ..
+
+nn return_count
+co $ ..
+fr $ 21
+
+zz -subArraySum
+ns ..
+
+zz -editorial.py
+ns ..

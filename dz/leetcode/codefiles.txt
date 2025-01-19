@@ -4,3 +4,4 @@
 425/2025_01_10.py codestudy/leetcode/425/files/2025_01_10.py
 421/hashset.py codestudy/leetcode/421/files/hashset.py
 872/editorial.py codestudy/leetcode/872/files/editorial.py
+560/editorial.py codestudy/leetcode/560/editorial.py

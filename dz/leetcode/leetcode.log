@@ -81,3 +81,78 @@ a generator, which needs to be converted to a list.
 This does an in-place list conversion for both trees,
 then applies a comparison between both of those
 resulting lists.
+
+@2025-01-19#codestudy/leetcode/570
+
+@17:17 This one requires some intuition to grok
+#! dz codestudy/leetcode/560/files/editorial.py
+This comes from the editorial for 437, path sum iii.
+The intuition for this always slips out of my mind.
+My hope with this code study is that it will force
+me to face this head-on and study this problem
+line by line.
+---
+It's almost no code, and yet, the intuition to get here...
+
+@17:30 The most unintuitive line for me right now
+#! dz codestudy/leetcode/560/files/editorial.py/subArraySum/iterate_over_numbers/increment_count_from_hashmap
+This here is the line that gets me the most confused.
+---
+The counter is being incremented by some amount in
+the hashmap. The hashmap item being looked up
+is the current prefix sum, minus the target value
+K.
+---
+Since this hashmap is a default dictionary, the counter
+will not get updated if there is no entry. Otherwise,
+it won't get updated.
+
+@17:39 Counter is updated in two places
+#! dz codestudy/leetcode/560/files/editorial.py/subArraySum/iterate_over_numbers/increment_count_from_hashmap 
+#! dz codestudy/leetcode/560/files/editorial.py/subArraySum/iterate_over_numbers/increment_count_if_psum_matches 
+The first time is when the current prefix sum is
+the target. This is intuitive for me. It says "if
+all the numbers added up to this point are the target,
+increment the counter by 1".
+----
+The second time the counter is incremented is when
+it is by the hashmap. And this can increment the
+variable by a variable amount, even zero. What
+does this mean?
+---
+It says: Take the current prefix sum, go back by an
+amount K, and see if this sum has appeared before.
+If so, add how many times it has appeared so far.
+---
+psum marks a point in a sequence, the accumulative
+amount traveled so far from the beginning. Perhaps
+you can think of it as like a marker you leave on
+the path. When you subtract K from psum, you are
+taking the current point in time, and seeing
+if there exists a previous point in time that was
+seen K units ago.
+
+@17:48 Trying to grok, why the counter works the way it does
+#! dz codestudy/leetcode/560/files/editorial.py/subArraySum/iterate_over_numbers/increment_count_from_hashmap 
+I've totally tried working this one out before.
+---
+When would prefix sums repeat? When negative values
+are introduced, otherwise it would be increasing in only
+one direction.
+
+@17:52 prefix sum, not partial sum
+#! dz codestudy/leetcode/560/files/editorial.py/subArraySum/initialize_variables
+I was writing this one incorrectly. This might
+better help me grok this actually calling it that.
+Prefix sum: summation up to this point.
+
+@17:55 Trying to articulate my confusion
+#! dz codestudy/leetcode/560/files/editorial.py/subArraySum/iterate_over_numbers/increment_count_from_hashmap 
+We are counting how many times a prefix occurs
+---
+It's difficult to convince myself that the prefix
+counter works.
+
+@18:05 Gotta keep moving unfortunately
+#! dz codestudy/leetcode/560/files/editorial.py/subArraySum/iterate_over_numbers/increment_count_from_hashmap
+I've been at this an hour
