@@ -16,3 +16,6 @@ cx codestudy/leetcode/110/files/editorial_top_down.py leetcode/problems/110_bala
 cx codestudy/leetcode/872/files/editorial.py leetcode/problems/872_leaf_similar_trees/solutions/DFS
 
 cx python/docs/stdlib/data_types/collections/defaultdict codestudy/leetcode/560/files/editorial.py
+
+cx leetcode/problems/560_subarray_sum_equals_k $
+cr solution
