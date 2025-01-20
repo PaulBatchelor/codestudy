@@ -17,5 +17,11 @@ cx codestudy/leetcode/872/files/editorial.py leetcode/problems/872_leaf_similar_
 
 cx python/docs/stdlib/data_types/collections/defaultdict codestudy/leetcode/560/files/editorial.py
 
-cx leetcode/problems/560_subarray_sum_equals_k $
-cr solution
+cx codestudy/leetcode/560/files/editorial.py leetcode/problems/560_subarray_sum_equals_k $
+cr solution in python
+
+cx codestudy/leetcode/437/files/editorial.py leetcode/problems/437_path_sum_iii
+cr solution in python
+
+cx codestudy/leetcode/560/files/editorial.py codestudy/leetcode/437/files/editorial.py
+cr 560 solution is used to help make 437, so there are similarities in the code

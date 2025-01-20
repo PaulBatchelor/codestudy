@@ -156,3 +156,55 @@ counter works.
 @18:05 Gotta keep moving unfortunately
 #! dz codestudy/leetcode/560/files/editorial.py/subArraySum/iterate_over_numbers/increment_count_from_hashmap
 I've been at this an hour
+
+@2025-01-19#codestudy/leetcode/437
+
+@18:17 Spinning this editorial solution up
+I didn't get to solve this solution because I didn't really
+understand prefix sum. I'm attempting to better grok
+this python solution by mapping the code and annotating
+it.
+
+@18:31 I am going to cross examine both of these files
+#! dz codestudy/leetcode/437/files/editorial.py
+#! dz codestudy/leetcode/560/files/editorial.py
+A cursory glance, I see similarities. It would be great
+to make one-to-one connections. I'm going to rework
+dzfiles so 437 and 560 can see eachother's nodes.
+
+@18:51 key difference: 437 increments AND decrements the hashmap
+#! dz codestudy/leetcode/437/files/editorial.py/pathSum/preorder/increment_hashmap 
+#! dz codestudy/leetcode/437/files/editorial.py/pathSum/preorder/decrement_hashmap
+#! dz codestudy/leetcode/560/files/editorial.py/subArraySum/iterate_over_numbers/increment_hashmap 
+I've gone ahead and made connections between similar
+line of code in 560 and 437. The biggest thing for me
+that sticks out is the fact that the DFS recursive
+preorder traversal requires incrementing the hashmap, calling
+traversing the children, then decrementing the hashmap.
+Currently trying grok what this means.
+
+@18:58 undo is backtracking
+#! dz codestudy/leetcode/437/files/editorial.py/pathSum/preorder/increment_hashmap 
+#! dz codestudy/leetcode/437/files/editorial.py/pathSum/preorder/preorder_children 
+#! dz codestudy/leetcode/437/files/editorial.py/pathSum/preorder/decrement_hashmap
+Recursion has a way of backtracking. I'm not going to say
+more on this because my brain is still sizzling from
+the backtracking I saw when I first attempted this a few
+hours ago.
+The increment marks the prefix at the current node before
+going in. The decrement unmarks it as an "undo".
+
+@19:07 Big picture: how do these relate?
+#! dz codestudy/leetcode/437/files/editorial.py
+#! dz codestudy/leetcode/560/files/editorial.py
+560: a problem that finds the number of unique subarrays
+in an array that sum to a target value.
+---
+437: a problem problem that finds the number of unique subpaths
+in a binary tree that sum to a target value.
+---
+An array structure is very similar to that of a path in
+a binary tree, so this problem can be adapted to a DFS
+solution for the binary tree. The modification is to
+account for backtracking by marking/unmarking the hashmap
+keeping track of prefix patterns.
