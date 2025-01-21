@@ -10,3 +10,6 @@
 [submodule "code/teatime"]
 	path = code/teatime
 	url = https://github.com/bjesus/teatime
+[submodule "code/sqlite"]
+	path = code/sqlite
+	url = https://github.com/sqlite/sqlite
