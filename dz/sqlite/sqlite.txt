@@ -1,0 +1,17 @@
+@2025-01-21#codestudy/sqlite
+
+@20:31 intitial setup
+#! dz codestudy/sqlite/news
+#! dz codestudy/sqlite/references/quickstart 
+After thinking about this for a while, I'm finally jumping
+in. I am doing a dive on the SQLite API. Specifically,
+I am studying the C example found in the docs for using
+the C API. My goal is to trace these top-level functions
+as deep as I can, mapping the source code and linking it
+to high-level documentation and reference material found
+on the website. We shall see how far I get.
+
+@20:35 "example.c" imported and mapped, connections to function reference
+#! dz codestudy/sqlite/news
+#! dz codestudy/sqlite/example.c
+#! dz codestudy/sqlite/references/c3ref

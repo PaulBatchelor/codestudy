@@ -18,6 +18,7 @@ ns +main
 nn variables
 fr $ 14 16
 co $ ..
+co ../../../references/c3ref/objects/sqlite3 $
 
 nn print_usage
 fr $ 18 21
@@ -26,22 +27,30 @@ co $ ..
 nn open_database
 fr $ 22
 co $ ..
+co ../../../references/c3ref/functions/open $
 
 nn check_if_opening_database_succeeded
 fr $ 23 27
 co $ ..
+co ../../../references/c3ref/functions/close $
+co ../../../references/c3ref/functions/errmsg $
 
 nn execute_statement
 fr $ 28
 co $ ..
+co ../../../references/c3ref/functions/exec $
 
 nn check_if_execution_succeeded
 fr $ 29 32
 co $ ..
+co ../../../references/c3ref/functions/free $
+co ../../../references/c3ref/constants/SQLITE_OK $
+co ../../../references/c3ref/functions/errmsg $
 
 nn close
 co $ ..
 fr $ 33
+co ../../../references/c3ref/functions/close $
 
 nn return
 fr $ 34

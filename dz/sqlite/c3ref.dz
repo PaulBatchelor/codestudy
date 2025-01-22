@@ -1,0 +1,67 @@
+ns +references/c3ref
+
+nn functions
+hl https://sqlite.org/c3ref/funclist.html
+co $ ..
+
+nn objects
+hl https://sqlite.org/c3ref/objlist.html
+co $ ..
+
+nn constants
+hl https://sqlite.org/c3ref/constlist.html
+co $ ..
+
+nn objects/sqlite3
+hl https://sqlite.org/c3ref/sqlite3.html
+co $ ..
+
+nn objects/stmt
+hl https://sqlite.org/c3ref/stmt.html
+co $ ..
+
+nn functions/open
+hl https://sqlite.org/c3ref/open.html
+co $ ..
+
+nn functions/prepare
+hl https://sqlite.org/c3ref/prepare.html
+co $ ..
+
+nn functions/bind
+hl https://sqlite.org/c3ref/bind_blob.html
+co $ ..
+
+nn functions/step
+hl https://sqlite.org/c3ref/step.html
+co $ ..
+
+nn functions/column
+hl https://sqlite.org/c3ref/column_blob.html
+co $ ..
+
+nn functions/finalize
+hl https://sqlite.org/c3ref/finalize.html
+co $ ..
+
+nn functions/close
+hl https://sqlite.org/c3ref/close.html
+co $ ..
+
+nn functions/exec
+hl https://sqlite.org/c3ref/exec.html
+co $ ..
+
+nn functions/free
+hl https://sqlite.org/c3ref/free.html
+co $ ..
+
+nn constants/SQLITE_OK
+hl https://sqlite.org/rescode.html#ok
+co $ ..
+
+nn functions/errmsg
+hl https://sqlite.org/c3ref/errcode.html
+co $ ..
+
+ns ../..

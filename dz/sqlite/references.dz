@@ -1,11 +1,16 @@
 ns +references
 
-nn intro_c_cpp_interface
+nn cintro
+at ol
 hl https://sqlite.org/cintro.html
 ln An Introduction To The SQLite C/C++ Interface 
 
 nn quickstart
 hl https://sqlite.org/quickstart.html
+
+nn c3ref
+hl https://sqlite.org/c3ref/intro.html
+at ol
 
 zz -references
 ns ..

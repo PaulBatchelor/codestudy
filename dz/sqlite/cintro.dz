@@ -1,0 +1,50 @@
+ns +references/cintro
+
+nn 1_summary
+hl https://sqlite.org/cintro.html#summary
+at ol
+co $ ..
+co ../../c3ref/objects/sqlite3 $
+co ../../c3ref/objects/stmt $
+co ../../c3ref/functions/open $
+co ../../c3ref/functions/prepare $
+co ../../c3ref/functions/bind $
+co ../../c3ref/functions/step $
+co ../../c3ref/functions/column $
+co ../../c3ref/functions/finalize $
+co ../../c3ref/functions/close $
+co ../../c3ref/functions/exec $
+
+nn 2_introduction
+hl https://sqlite.org/cintro.html#introduction
+co $ ..
+
+nn 3_core_objects_interfaces
+hl https://sqlite.org/cintro.html#core_objects_and_interfaces
+co $ ..
+
+nn 4_typical_usage_of_core_routines_and_objects
+hl https://sqlite.org/cintro.html#typical_usage_of_core_routines_and_objects
+co $ ..
+
+nn 5_convenience_wrappers_around_core_routines
+hl https://sqlite.org/cintro.html#convenience_wrappers_around_core_routines
+co $ ..
+
+nn 6_binding_parameters_and_reusing_prepared_statements
+hl https://sqlite.org/cintro.html#binding_parameters_and_reusing_prepared_statements
+co $ ..
+
+nn 7_configuring_sqlite
+hl https://sqlite.org/cintro.html#configuring_sqlite
+co $ ..
+
+nn 8_extending_sqlite
+hl https://sqlite.org/cintro.html#extending_sqlite
+co $ ..
+
+nn 9_other_interfaces
+hl https://sqlite.org/cintro.html#other_interfaces
+co $ ..
+
+ns ../..
