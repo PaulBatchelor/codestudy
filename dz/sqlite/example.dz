@@ -1,0 +1,53 @@
+nn example
+at ol
+fr codestudy/sqlite/example.c
+
+ns +example
+
+nn callback
+fr $ 4 11
+co $ ..
+
+nn main
+co $ ..
+fr $ 13 35
+at ol
+
+ns +main
+
+nn variables
+fr $ 14 16
+co $ ..
+
+nn print_usage
+fr $ 18 21
+co $ ..
+
+nn open_database
+fr $ 22
+co $ ..
+
+nn check_if_opening_database_succeeded
+fr $ 23 27
+co $ ..
+
+nn execute_statement
+fr $ 28
+co $ ..
+
+nn check_if_execution_succeeded
+fr $ 29 32
+co $ ..
+
+nn close
+co $ ..
+fr $ 33
+
+nn return
+fr $ 34
+
+zz -main
+ns ..
+
+zz -example
+ns ..
