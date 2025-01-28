@@ -1,4 +1,59 @@
+nn files
 ns +files
+
+nn sqliteInt.h
+fr codestudy/sqlite/sqliteInt.h
+co $ ..
+
+ns +sqliteInt.h
+nn sqlite3
+fr $ 1632 1770
+co $ ..
+co $ ../../../references/c3ref/objects/sqlite3
+zz -sqliteInt.h
+ns ..
+
+nn main.c
+fr codestudy/sqlite/main.c
+co $ ..
+
+ns +main.c
+
+nn sqlite3_open
+fr $ 3575 3581
+co $ ../../../references/c3ref/functions/open
+
+nn sqlite3_close
+fr $ 1325
+co $ ../../../references/c3ref/functions/close
+
+zz -main.c
+ns ..
+
+nn legacy.c
+fr codestudy/sqlite/legacy.c
+co $ ..
+
+ns +legacy.c
+nn sqlite3_exec
+fr $ 30 141
+co $ ../../../references/c3ref/functions/exec
+zz -legacy.c
+ns ..
+
+nn malloc.c
+fr codestudy/sqlite/malloc.c
+co $ ..
+
+ns +malloc.c
+
+nn sqlite3_free
+co $ ..
+fr $ 412 425
+co $ ../../../references/c3ref/functions/free
+
+zz -malloc.c
+ns ..
 
 zz -files
 ns ..

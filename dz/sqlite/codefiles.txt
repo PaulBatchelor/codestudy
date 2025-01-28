@@ -1,1 +1,5 @@
 ../sqlite_example/example.c codestudy/sqlite/example.c
+src/sqliteInt.h codestudy/sqlite/sqliteInt.h
+src/main.c codestudy/sqlite/main.c
+src/legacy.c codestudy/sqlite/legacy.c
+src/malloc.c codestudy/sqlite/malloc.c
