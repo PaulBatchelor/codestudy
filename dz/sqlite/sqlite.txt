@@ -15,3 +15,38 @@ on the website. We shall see how far I get.
 #! dz codestudy/sqlite/news
 #! dz codestudy/sqlite/example.c
 #! dz codestudy/sqlite/references/c3ref
+
+@2025-01-29#codestudy/sqlite
+
+@11:09 beginning to look into openDatabse today
+#! dz codestudy/sqlite/news
+#! dz codestudy/sqlite/files/main.c/openDatabase
+
+@11:08 glossing over this part
+#! dz $/some_variable_initialization 
+I'm glossing over this part. But it seems like generally
+things are being set in the newly allocated SQLite database
+
+@11:08 look at all this!
+#! dz $/set_flags
+
+@11:19 I've just stumbled on a very intimidating numbers
+#! dz $/EVIDENCE_OF_R_52786_44878
+#! dz $/add_default_collation_sequence_binary
+There's a very peculiar number I found: R-52786-44878,
+a shorthand for a much larger number.
+Looking this up, it corresponds to a set of standards
+in the SQLite file spec. It seems I stumbled upon another
+layer of documentation I'll have to take a look at at
+some point.
+---
+Where do these numbers come from?
+---
+Also noteworthy: "EVIDENCE-OF" seems to be a special keyword
+in the comments, most likely used for documentation
+generation. Probably worth looking into at some point.
+
+@11:40 doesn't seem to be a part of default documentation bundle
+#! dz codestudy/sqlite/references/R_52786_44878
+I just dowloaded the 3.48 docs and tried grepping for
+52786. The number does not appear

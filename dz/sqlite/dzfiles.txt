@@ -1,4 +1,5 @@
 +
-main.dz files.dz references.dz example.dz
+main.dz files/files.dz references.dz example.dz
 cintro.dz c3ref.dz
+files/main.c.dz
 .

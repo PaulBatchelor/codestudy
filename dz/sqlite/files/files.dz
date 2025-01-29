@@ -13,25 +13,6 @@ co $ ../../../references/c3ref/objects/sqlite3
 zz -sqliteInt.h
 ns ..
 
-nn main.c
-fr codestudy/sqlite/main.c
-co $ ..
-
-ns +main.c
-
-nn sqlite3_open
-fr $ 3575 3581
-co $ ../../../references/c3ref/functions/open
-co $ ..
-
-nn sqlite3_close
-fr $ 1325
-co $ ../../../references/c3ref/functions/close
-co $ ..
-
-zz -main.c
-ns ..
-
 nn legacy.c
 fr codestudy/sqlite/legacy.c
 co $ ..
