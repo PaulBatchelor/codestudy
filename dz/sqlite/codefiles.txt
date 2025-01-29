@@ -3,3 +3,5 @@ src/sqliteInt.h codestudy/sqlite/sqliteInt.h
 src/main.c codestudy/sqlite/main.c
 src/legacy.c codestudy/sqlite/legacy.c
 src/malloc.c codestudy/sqlite/malloc.c
+src/btree.c codestudy/sqlite/btree.c
+src/btmutex.c codestudy/sqlite/btmutex.c

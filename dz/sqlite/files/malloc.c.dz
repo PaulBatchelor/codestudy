@@ -1,0 +1,22 @@
+ns +files
+
+nn malloc.c
+fr codestudy/sqlite/malloc.c
+co $ ..
+
+ns +malloc.c
+
+nn sqlite3_free
+co $ ..
+fr $ 412 425
+co $ ../../../references/c3ref/functions/free
+
+nn sqlite3MallocZero
+fr $ 602 608
+co $ ..
+
+zz -malloc.c
+ns ..
+
+zz -files
+ns ..

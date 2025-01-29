@@ -13,7 +13,7 @@ on the website. We shall see how far I get.
 
 @20:35 "example.c" imported and mapped, connections to function reference
 #! dz codestudy/sqlite/news
-#! dz codestudy/sqlite/example.c
+#! dz codestudy/sqlite/example
 #! dz codestudy/sqlite/references/c3ref
 
 @2025-01-29#codestudy/sqlite
@@ -50,3 +50,22 @@ generation. Probably worth looking into at some point.
 #! dz codestudy/sqlite/references/R_52786_44878
 I just dowloaded the 3.48 docs and tried grepping for
 52786. The number does not appear
+
+@11:40 second traversal of openDatabse
+#! dz codestudy/sqlite/news
+#! dz codestudy/sqlite/files/main.c/openDatabase
+This time, adding new nodes and references
+
+@12:16 too many flags to document right now
+#! dz $/remove_harmful_bits_from_flags 
+
+@12:43 Found the top-level btree stuff
+#! dz $/open_backend_database_driver
+#! dz $/open_backend_database_driver/BTreeOpen
+#! dz $/open_backend_database_driver/BTreeEnter
+#! dz $/open_backend_database_driver/BTreeLeave
+#! dz codestudy/sqlite/files/btree.c
+#! dz codestudy/sqlite/files/btmutex.c
+B-Trees are at the heart of databases, so this might
+have some meat. The Enter/Leave functions refer to
+mutex operations, which are defined in another file.

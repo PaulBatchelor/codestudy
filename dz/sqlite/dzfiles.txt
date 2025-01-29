@@ -1,5 +1,6 @@
 +
 main.dz files/files.dz references.dz example.dz
-cintro.dz c3ref.dz
-files/main.c.dz
+cintro.dz c3ref.dz files/main.c.dz compile.dz
+files/sqliteInt.h.dz files/malloc.c.dz files/btree.c.dz
+files/btmutex.c.dz
 .

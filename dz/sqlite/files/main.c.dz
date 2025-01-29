@@ -1,0 +1,157 @@
+ns +files
+nn main.c
+fr codestudy/sqlite/main.c
+co $ ..
+
+ns +main.c
+
+nn sqlite3_open
+fr $ 3575 3581
+co $ ../../../references/c3ref/functions/open
+co $ ..
+
+nn sqlite3_close
+fr $ 1325
+co $ ../../../references/c3ref/functions/close
+co $ ..
+
+nn openDatabase
+fr $ 3217 3569
+co $ ../sqlite3_open
+at ol
+
+ns +openDatabase
+
+nn variables
+co $ ..
+fr $ 3223 3228
+
+nn api_armor
+co $ ..
+fr $ 3230 3232
+co ../../../../references/compile/07_enable_features_normally_off $
+co ../../../../references/c3ref/constants/SQLITE_MISUSE $
+
+nn zero_out_sqlite_object
+fr $ 3233
+co $ ..
+
+nn initialize_sqlite
+fr $ 3234 3237
+co $ ..
+co $ ../../../../references/c3ref/functions/initialize
+co $ ../../../sqliteInt.h/sqlite3GlobalConfig
+
+nn set_isThreadsafe
+fr $ 3239 3247
+co $ ..
+
+nn check_open_private_cache_flags
+fr $ 3249 3253
+co $ ..
+co ../../../../references/c3ref/constants/file_open_flags/SQLITE_OPEN_PRIVATE_CACHE $
+
+nn remove_harmful_bits_from_flags
+fr $ 3255 3276
+co $ ..
+
+nn allocate_sqlite3
+fr $ 3279 3280
+co $ ..
+co ../../../malloc.c/sqlite3MallocZero $
+
+nn acquire_mutex
+fr $ 3281 3296
+co $ ..
+
+nn some_variable_initialization
+fr $ 3297 3319
+co $ ..
+
+nn set_flags
+fr $ 3320 3391
+co $ ..
+
+nn HashInit
+fr $ 3392 3395
+co $ ..
+
+nn add_default_collation_sequence_binary
+fr $ 3397 3411
+co $ ..
+
+nn EVIDENCE_OF_R_52786_44878
+fr $ 3401
+co $ ..
+co ../../../../references/R_52786_44878 $
+
+nn process_magic_filenames
+fr $ 3413 3424
+co $ ..
+
+nn parse_filename_arg
+fr $ 3426 3463
+co $ ..
+
+nn open_backend_database_driver
+fr $ 3464 3493
+co $ ..
+at ol
+
+ns +open_backend_database_driver
+
+nn BTreeOpen
+co $ ..
+co ../../../../btree.c/sqlite3BtreeOpen $
+
+nn BTreeEnter
+co $ ..
+fr $ 3474
+
+nn BTreeLeave
+co $ ..
+fr $ 3479
+
+zz -open_backend_database_driver
+ns ..
+
+nn register_built_in_functions
+fr $ 3495 3501
+co $ ..
+
+nn load_compiled_in_extensions
+fr $ 3504 3507
+co $ ..
+
+nn load_automatic_extensions
+fr $ 3509 3518
+co $ ..
+
+nn enable_internal_functions
+fr $ 3520 3525
+co $ ..
+
+nn default_locking_mode
+fr $ 3527 3535
+co $ ..
+
+nn enable_lookaside_malloc_subsystem
+fr $ 3539 3541
+co $ ..
+
+nn wal_autocheckpoint
+fr $ 3543
+co $ ..
+
+nn opendb_out
+fr $ 3545 3567
+co $ ..
+
+zz -openDatabase
+ns ..
+
+zz -main.c
+ns ..
+
+zz -files
+ns ..

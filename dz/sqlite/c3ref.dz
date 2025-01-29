@@ -64,4 +64,20 @@ nn functions/errmsg
 hl https://sqlite.org/c3ref/errcode.html
 co $ ..
 
+nn constants/SQLITE_MISUSE
+hl https://sqlite.org/rescode.html#misuse
+co $ ..
+
+nn functions/initialize
+hl https://sqlite.org/c3ref/initialize.html
+co $ ..
+
+nn constants/file_open_flags
+hl https://sqlite.org/c3ref/c_open_autoproxy.html
+co $ ..
+
+nn constants/file_open_flags/SQLITE_OPEN_PRIVATE_CACHE
+co $ ..
+
+
 ns ../..

@@ -1,0 +1,23 @@
+ns +references/compile
+nn 07_enable_features_normally_off
+hl https://sqlite.org/compile.html#_options_to_enable_features_normally_turned_off
+co $ ..
+
+ns +07_enable_features_normally_off
+nn SQLITE_ENABLE_API_ARMOR
+co $ ..
+ln When defined, this C-preprocessor macro
+ln activates extra code that attempts to
+ln detect misuse of the SQLite API, such
+ln as passing in NULL pointers to required
+ln parameters or using objects after they
+ln have been destroyed. When this option
+ln is enabled and an illegal API usage is
+ln detected, the interface will typically
+ln return SQLITE_MISUSE.
+
+zz -07_enable_features_normally_off
+ns ..
+
+zz -references/compile
+ns ../..

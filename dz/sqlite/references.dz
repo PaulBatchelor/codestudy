@@ -1,20 +1,30 @@
+nn references
+
 ns +references
 
 nn cintro
 at ol
 hl https://sqlite.org/cintro.html
 ln An Introduction To The SQLite C/C++ Interface 
+co $ ..
 
 nn quickstart
 hl https://sqlite.org/quickstart.html
+co $ ..
 
 nn c3ref
 hl https://sqlite.org/c3ref/intro.html
 at ol
+co $ ..
 
 nn R_52786_44878
 hl https://sqlite.org/draft/matrix/fileformat2.html#R-52786-44878-02459-51231-59841-41905-39578-10951
 
+
+nn compile
+hl https://sqlite.org/compile.html
+co $ ..
+at ol
 
 zz -references
 ns ..
