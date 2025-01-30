@@ -50,3 +50,10 @@ Seems to be what I need in order to understand =searcher=.
 and =search()=, which is the crux of what we are doing.
 
 @20:20 I think that's all I'm going to be able to accomplish today.
+
+@2025-01-29#codestudy/ripgrep
+
+@18:11 getting back into things
+#! dz codestudy/ripgrep/news
+Since I've looked at this, I've added a bit more to the
+codestudy infrastructure.
