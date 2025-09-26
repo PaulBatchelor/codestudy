@@ -43,9 +43,9 @@ at the moment
 
 @19:34 Adding hiargs.rs
 #! dz $/09_iterate_haystacks/02_compute_search_result
+#! dz $/08_let_mut_searcher
 #! dz codestudy/ripgrep/news
 #! dz codestudy/ripgrep/files/crates/core/flags/hiargs.rs
-#! dz $/08_let_mut_searcher
 Seems to be what I need in order to understand =searcher=.
 and =search()=, which is the crux of what we are doing.
 
